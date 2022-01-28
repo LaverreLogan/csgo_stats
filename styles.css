@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #171a21;
+}
+p, a,label {
+  color: rgb(255, 255, 255);
+}
+header {
+  position: relative;
+  max-height: 550px;
+  padding: 0;
+}
+
+#imageHeader {
+  max-width: 100%;
+  
+}
+
+#titleHeader {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: rgb(226, 226, 226);
+  font-size: 3vw;
+}
+
+#menu {
+  float: left;
+  margin-top: 70px;
+  margin-left: 20px;
+  padding: 20px;
+  border-color: rgba(56, 72, 137, 0);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #212630;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-color: rgba(56, 72, 137, 0);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #212630;
+  width: 60%;
+  height: 600px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  padding: 0 50px 0 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 60%; */
+}
+.result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+input[type=text], input[type=number] {
+  margin-bottom: 25px;
+  width: 100px;
+  border: 2px rgb(35, 110, 133) solid;
+  border-radius: 3px;
+}
+
+.button {
+  margin-top: 25px;
+  width: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
